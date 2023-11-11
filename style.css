@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 200px;
+    background-color: rgb(28, 28, 28);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin:100px auto;
+}
+#password{
+    height: 40px;
+}
+#password-range{
+    margin: 20px 0;
+}
+input{
+    border: none;
+    border-radius: 8px;
+}
